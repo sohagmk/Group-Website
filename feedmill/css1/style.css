@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+.textWhite12 {color: #CCC; font-size: 14px;font-family:'Kalpurush', sans-serif; }
+.textWhite12:link {color: #CCC; font-size: 14px;font-family:'Kalpurush', sans-serif; text-decoration:none}
+.textWhite12:visited {color: #CCC; font-size: 14px;font-family:'Kalpurush', sans-serif; }
+
+.nav2:link {
+	COLOR: #FFFFFF; TEXT-DECORATION: none; FONT-FAMILY: 'Kalpurush', sans-serif; FONT-SIZE: 7.5pt
+}
+.nav2:visited {
+	COLOR: #FFFFFF; TEXT-DECORATION: none ; FONT-FAMILY: 'Kalpurush', sans-serif; FONT-SIZE: 7.5pt
+}
+.nav2:hover {
+	COLOR: #FFFF00; TEXT-DECORATION: underline; FONT-FAMILY: 'Kalpurush', sans-serif; FONT-SIZE: 7.5pt
+}
+
+.textBlack12 {color: #666; font-size: 12px;font-family:'Kalpurush', sans-serif; text-align:justify }
+.textBlack12:link {
+	color: #666;
+	font-size: 12px;
+	font-family:Verdana;
+	text-decoration:none;
+	text-align:left
+}
+.textBlack12:visited {
+	color: #666;
+	font-size: 12px;
+	font-family:Verdana;
+	text-decoration:none;
+	text-align:left
+}
+
+
+
+.textBlack13 {color: #CCC; font-size: 13px;font-family:Verdana; }
+.textBlack13:link {color: #CCC; font-size: 13px;font-family:Verdana; text-decoration:none}
+.textBlack13:hover {color: #C90; font-size: 13px;font-family:Verdana; text-decoration:none}
+.textBlack13:visited {color: #CCC; font-size: 13px;font-family:Verdana; text-decoration:none}
+
+
+
+.linkWhite {color: #FFF; font-size: 15px; font-family:Verdana; text-decoration:none}
+.linkWhite:link {color: #FFF; font-size: 15px; font-family:Verdana; text-decoration:none}
+.linkWhite:hover {color: #FFF; font-size: 15px; font-family:Verdana; text-decoration:none}
+
+.linkWhite13 {color: #FFF; font-size: 13px; font-family:Verdana; text-decoration:none}
+.linkWhite13:link {color: #FFF; font-size: 13px; font-family:Verdana; text-decoration:none}
+.linkWhite13:hover {color: #FFF; font-size: 13px; font-family:Verdana; text-decoration:none}
+
+
+.textBlack10 {color: #666; font-size: 10px;font-family:Verdana; text-align:center }
+
+.textBlack9 {color: #666; font-size: 9px;font-family:Verdana; text-align:center }
+
+
+.MenuTableBg {background:url(../img_new/btn-red-left-top.png)}
+
+.MenuTableBgGreen {background:url(../img_new/btn-bg-green.png)}
+
+.MenuTableBgRed {background:url(../img_new/btn-bg-red.jpg)}
+
+.MenuTableBgRedTop {background:url(../img_new/btn-top-mid-bar.png)}
+.box-mid-all {
+	background-image: url(../img_new/box-all_m2.png);
+	background-repeat: repeat;
+}
+
+
+.textBlack14 {color: #000; font-size: 14px;font-family:Verdana; text-decoration:none }
+.textBlack14:link {color: #000; font-size: 14px;font-family:Verdana; text-decoration:none; text-decoration:none}
+.textBlack14:visited {color: #000; font-size: 14px;font-family:Verdana; text-decoration:none }
+.box_count { data-layout="box_count" data-width="50"  }
+.home_boxmid {
+	background-image: url(../img_new/home_web_05.png);
+	background-repeat: repeat-y;
+}
+.monitor_left {
+	background-image: url(../img_new/monitor_h_04.png);
+	background-repeat: repeat-y;
+}
+.monitor_right {
+	background-image: url(../img_new/monitor_h_06.png);
+	background-repeat: repeat-y;
+}
+.order2 {color: #666; font-size: 12px;font-family:Verdana; text-align: right; }
+.textGreen-14 {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #090;
+}
+.add2 {
+	position: absolute;
+	height: 132px;
+	width: 254px;
+	left: 211px;
+	top: 602px;
+}
+.textRed-14 {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C00;
+}
+.textBlue-14 {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #03F;
+}
+.textWhite20 {color: #FFF; font-size: 20px;font-family:'Kalpurush', sans-serif }

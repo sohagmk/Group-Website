@@ -1,0 +1,131 @@
+/* CSS Document */
+.gridtable 
+	{
+		font-family: 'Kalpurush', sans-serif;
+		font-size:20px;
+		font-weight:600;
+		border-width: 1px;
+		border-color: #666666;
+		border-collapse: collapse;
+		width:95%;
+	}
+	.gridtable  tr
+	{
+		border-width: 1px;
+		border-style: solid;
+		border-color: #666666;
+		
+	}
+	.gridtable  td
+	{
+		border-width: 1px;
+		border-style: solid;
+		border-color: #666666;
+		
+	}
+	
+	.gridtable1 
+	{
+		font-family: 'Kalpurush', sans-serif;
+		font-size:20px;
+		font-weight:600;
+		border-width: 1px;
+		border-color: #666666;
+		border-collapse: collapse;
+		width:95%;
+	}
+	
+	.textstyle
+		{
+			font-family: 'Kalpurush', sans-serif;
+			font-size:14px;
+		}
+
+	.body-customs 
+	{
+		background: #FFFFFF;
+		font-family: 'Kalpurush', sans-serif;
+		font-size:20px;
+	}
+	
+	a:link 
+	{
+    	color: #CCC;
+	}
+
+	/* visited link */
+	a:visited 
+	{
+   		color: red;
+	}
+
+	/* mouse over link */
+	a:hover 
+	{
+    	color: blue;
+	}
+
+	/* selected link */
+	a:active 
+	{
+    	color: blue;
+	}
+	
+	
+	/* Slideshow container */
+	.slideshow-container {
+		position: relative; 
+		width:980px;
+		height:330px;
+		margin:0 auto;
+		z-index:100;
+		border:10px solid #FFFFFF;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+
+	.active {
+	  background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
+	
+	
+	@font-face {
+		font-family: 'Kalpurush';
+		src: url('Kalpurush.eot');
+		src: url('Kalpurush.woff') format('woff'),
+		url('Kalpurush.ttf') format('truetype'),
+		url('Kalpurush.svg#Kalpurush') format('svg'),
+		url('Kalpurush.eot?#iefix') format('embedded-opentype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	.navbar a{
+		font-family: 'Kalpurush', sans-serif;
+		font-size:20px;
+	}

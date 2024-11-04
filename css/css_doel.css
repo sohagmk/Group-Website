@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {background:#001527;border:0;font:14px Arial, Helvetica, sans-serif;color:#363636;line-height:20px;margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px}
+	
+	/* Navigation  Start */
+		
+	/* remove the list style */
+	#nav {
+		margin:0; 
+		padding:0; 
+		list-style:none;
+	}	
+	
+		/* make the LI display inline */
+		/* it's position relative so that position absolute */
+		/* can be used in submenu */
+		#nav li {
+			float:left; 
+			display:block; 
+			width:123px; 
+			background:#ccc; 
+			position:relative;
+			z-index:500; 
+			margin:0 1px;
+			font-family:verdana,arial,sans-serif; 
+			font-size:11px;
+		}
+		
+		/* this is the parent menu */
+		#nav li a {
+			display:block; 
+			padding:8px 5px 0 5px; 
+			font-weight:700;  
+			height:23px; 
+			text-decoration:none; 
+			color:#fff; 
+			text-align:center; 
+			color:#333;
+			font-family:verdana,arial,sans-serif; 
+			font-size:11px;
+		}
+
+		#nav li a:hover {
+			color:#fff;
+		}
+	
+		/* you can make a different style for default selected value */
+		#nav a.selected {
+			color:#f00;
+		}
+	
+		/* submenu, it's hidden by default */
+		#nav ul {
+			position:absolute; 
+			left:0; 
+			display:none; 
+			margin:0 0 0 -1px; 
+			padding:0; 
+			list-style:none;
+		}
+		
+		#nav ul li {
+			width:123px; 
+			float:left; 
+			border-top:1px solid #fff;
+			font-family:verdana,arial,sans-serif; 
+			font-size:11px;
+		}
+		
+		/* display block will make the link fill the whole area of LI */
+		#nav ul a {
+			display:block;  
+			height:15px;
+			padding: 8px 5px; 
+			color:#666;
+		}
+		
+		#nav ul a:hover {
+			text-decoration:underline;	
+		}
+
+		/* fix ie6 small issue */
+		/* we should always avoid using hack like this */
+		/* should put it into separate file : ) */
+		*html #nav ul {
+			margin:0 0 0 -2px;
+		}
+	
+	
+	/* Navigation  End */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+.rightDiv {
+	float:right;
+	height:25px;
+	overflow:hidden;
+	vertical-align: middle;
+	border:none
+}
+
+#Page1 { margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:100%
+}
+#content {width:100%;overflow:hidden;padding:33px 0 48px 53px}
+.col1, .col2, .col3,.col4, .cols {float:left}
+.col1 {width:100%}
+.col2 {
+	/* [disabled]width:585px; */
+}
+.col4 {width:485px}
+.pad_left1 {padding-left:33px}
+
+.main {width: 1000px; margin:0 auto; position:relative}
+.wrapper {width:100%;overflow:hidden}
+.Body-1 { background-image: url(../images/bg_top_repeat.gif); background-repeat:repeat-x; background-position:top}
+.Body-2 {background-image: url(../images/bg_top1.jpg);  background-position:center; background-repeat:no-repeat; background-position:top}
+
+/* Header */
+header{}
+#logo {
+	display:block;
+	background-image:url(../images/logo.png);
+	background-repeat: no-repeat;
+	height:65px;
+	width:557px;
+	padding-left:15px;
+	float:left
+}
+header .right{
+	padding-right:0px;
+	width:250px;
+	float:right;
+	vertical-align:middle;
+	text-align:right
+}
+
+/* Menu */
+.menuDiv{padding-top:40px; padding-bottom:40px}
+.bodycon {background:url(../images/backbody.jpg)}
+
+/* Slider */
+.body-3 {background:url(../images/bg_top2_repeat.jpg) top repeat-x}
+.body-4 {background:url(../images/bg_top2.jpg) top center no-repeat;height:379px}
+.sliderDiv {padding-top:15px;}
+
+/* Content */
+.body-5 {background:url(../images/bg_top3_repeat.jpg) top center repeat-x; height:149px}
+.body-6 {background:url(../images/bg_top3.jpg) top center no-repeat;padding:28px 28px;; height:149px}
+.LeftContentL {width:120px; float:left}
+.LeftContentR {width:auto; float:left}
+
+.body-7 {background: #ffffff}
+
+.body-8 {background:url(../images/bg_bot_repeat.jpg) top repeat-x}
+.body-9 {background:url(../images/bg_bot.jpg) top center no-repeat;height:230px}
+
+.list2 {margin-top:-8px;padding-bottom:24px}
+.list2 li {line-height:37px;background:url(../images/line_hor1.gif) bottom repeat-x; list-style:none}
+.list2 .bg_none {background:none}
+.list2 li a {font-size:18px;color:#363636;text-decoration:none}
+.list2 li a:hover {color:#006abb}
+.list2 li img {margin-right:10px}
+
+
+.list3 li {line-height:30px; color:#CCC; font-family:Verdana, Geneva, sans-serif; font-size:12px}
+.list3 li {padding-left:23px;  background:url(../images/arrow_st.png) no-repeat;  list-style:none; background-position:left}
+.list3 li a:link {text-decoration:none;color:#CCC; font-family:Verdana, Geneva, sans-serif; font-size:12px}
+.list3 li a:hover {text-decoration: underline;color:#CCC; font-family:Verdana, Geneva, sans-serif; font-size:12px}
+.list3 li a:visited {text-decoration:none;color:#CCC; font-family:Verdana, Geneva, sans-serif; font-size:12px}
+.DivHeight15{height:15px;}
